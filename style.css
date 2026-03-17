@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4efe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* main card */
+.container {
+    background: #ffffff;
+    width: 420px;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* heading */
+h2 {
+    text-align: center;
+    color: #4e463f;
+    margin-bottom: 5px;
+}
+
+/* subtitle */
+.subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #8c7f72;
+    margin-bottom: 20px;
+}
+
+/* fields */
+.field {
+    margin-bottom: 15px;
+}
+
+/* labels */
+label {
+    display: block;
+    font-size: 13px;
+    color: #6f6255;
+    margin-bottom: 5px;
+}
+
+/* inputs */
+input, select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #e2d8c8;
+    border-radius: 8px;
+    background: #faf7f3;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* focus effect */
+input:focus, select:focus {
+    outline: none;
+    border-color: #cbbba4;
+    background: #fff;
+}
+
+/* button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #cbbba4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* hover */
+button:hover {
+    background: #b7a68e;
+}
+
+.container {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
